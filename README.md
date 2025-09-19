@@ -5,12 +5,6 @@ Combina visió per computador, control de motors i sensors per reconèixer carte
 
 ---
 
-## 🎥 Vídeo de demostració
-
-[![Veure vídeo](https://img.youtube.com/vi/LgzfWQ4xZNc/0.jpg)](https://youtu.be/LgzfWQ4xZNc)
-
----
-
 ## 🧠 Descripció general
 
 El robot es compon de quatre mòduls principals:
@@ -22,6 +16,12 @@ El robot es compon de quatre mòduls principals:
 
 El reconeixement de cartes es fa mitjançant una **API de Roboflow**, integrada al codi de `src/raspberry_pi4`, que processa les imatges captades per la càmera i retorna el valor de la carta al programa principal.  
 Inicialment s’havia creat una xarxa neuronal pròpia (`src/neural_network`), però tot i obtenir una bona precisió en entrenament (>0.9), no donava resultats fiables en temps real, per la qual cosa es va optar per utilitzar Roboflow.
+
+---
+
+## 🎥 Vídeo de demostració
+
+[![Veure vídeo](https://img.youtube.com/vi/LgzfWQ4xZNc/0.jpg)](https://youtu.be/LgzfWQ4xZNc)
 
 ---
 
