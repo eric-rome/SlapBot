@@ -5,6 +5,12 @@ Combina visió per computador, control de motors i sensors per reconèixer carte
 
 ---
 
+## 🎥 Vídeo de demostració
+
+[![Veure vídeo](https://img.youtube.com/vi/LgzfWQ4xZNc/0.jpg)](https://youtu.be/LgzfWQ4xZNc)
+
+---
+
 ## 🧠 Descripció general
 
 El robot es compon de quatre mòduls principals:
